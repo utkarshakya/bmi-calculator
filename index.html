@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="start">
+        <h1>BMI Calculator</h1>
+        <p>Try It Now, Enter Values To Get BMI</p>
+    </div>
+    <form>
+        <div id="container-1">
+            <div class="userInput">
+                <label for="height">Height</label>
+                <input type="text" id="height" placeholder="cm">
+            </div>
+            <div class="userInput">
+                <label for="weight">Weight</label>
+                <input type="text" id="weight" placeholder="kg">
+            </div>
+            <div class="button">
+                <input type="submit" value="Calculate" id="calculate">
+                <input type="reset" value="Clear" id="clear">
+            </div>
+        </div>
+        <div id="container-2">
+            <span id="result">Result Will Appear Here</span>
+        </div>
+    </form>
+    <div id="bmi-range">
+        <details>
+            <summary>Range Table</summary>
+            <table>
+                <tr>
+                    <th>Classification</th>
+                    <th>Range</th>
+                </tr>
+                <tr>
+                    <td>Severe Thinness </td>
+                    <td>&lt; 16</td>
+                </tr>
+                <tr>
+                    <td>Moderate Thinness</td>
+                    <td>16 - 17</td>
+                </tr>
+                <tr>
+                    <td>Mild Thinness</td>
+                    <td>17 - 18.5</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>18.5 - 25</td>
+                </tr>
+                <tr>
+                    <td>Overweight</td>
+                    <td>25 - 30</td>
+                </tr>
+                <tr>
+                    <td>Obese Class I</td>
+                    <td>30 - 35</td>
+                </tr>
+                <tr>
+                    <td>Obese Class II</td>
+                    <td>35 - 40</td>
+                </tr>
+                <tr>
+                    <td>Obese Class III</td>
+                    <td>&gt; 40</td>
+                </tr>
+            </table>
+        </details>
+        <a href="#" target=""><button class="link-button" id="code">SOURCE CODE</button></a>
+    </div>
+    <!-- <a href="" class="signature"><span class="caveat">@utkarshakya</span></a> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
