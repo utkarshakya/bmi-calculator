@@ -4,7 +4,7 @@
 
 .caveat {
     font-family: "Caveat", cursive;
-    font-size: smaller;
+    font-size: medium;
     font-weight: 100;
     font-style: normal;
 }
@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 50px 20px 0px 20px;
+    padding: 0px 20px;
     background-color: #212121;
     color: #fff;
 }
@@ -175,10 +175,17 @@ details:hover {
 /* BMI Range [END] */
 .signature {
     display: flex;
-    position: fixed;
-    top: 5px;
-    color: black;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.signature a{
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    transition: all 0.3s linear;
+}
+.signature a:hover{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 @media (width <=768px) {
