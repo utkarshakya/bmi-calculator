@@ -154,20 +154,6 @@ td {
     font-weight: 300;
 }
 
-#code {
-    padding: 15px 30px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #212121;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 700;
-    box-shadow: 2px 2px 5px black;
-    transition: all 50ms;
-    font-size: smaller;
-}
-
-#code:hover,
 details:hover {
     box-shadow: none;
 }
